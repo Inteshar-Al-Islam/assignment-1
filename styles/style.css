@@ -127,6 +127,7 @@ nav{
     border-radius: 5px;
     font-size: 18px;
     font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
 }
 .nav-text{
     font-size: 32px;
@@ -301,3 +302,59 @@ font-weight: 700;
   padding: 48px 24px;
   background-position: 1.6% 16%;
 }
+.newses{
+  font-family: 'Fira Sans', sans-serif;
+}
+.news {
+  display: flex;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 48px;
+  justify-content: space-between;
+  font-family: 'Fira Sans', sans-serif;
+  margin-bottom: 24px;
+}
+.satelite-img{
+  border-radius: 24px;
+  width: 408px;
+  height: 306px;
+}
+.news-text-full{
+  margin-left: 60px;
+}
+.news-title{
+  color: rgba(14, 14, 14, 0.8);
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+.date-time{
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.date{
+  margin-right: 12px;
+}
+.read-more{
+  border-radius: 8px;
+  width: 139px;
+  height: 48px;
+  background-color: rgb(0, 106, 80);
+  border: none;
+  color:rgb(255, 255, 255);
+  font-size: 18px;
+  margin-top:32px;
+}
+.channel-image{
+  margin-top: 8px;
+}
+
+#second-news-p{
+  width: 80%;
+}
+
