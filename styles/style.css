@@ -262,3 +262,42 @@ font-weight: 700;
   color: rgb(255, 255, 255);
   background-color: rgb(255, 194, 57);
 }
+.quotation{
+  width: 100%;
+  font-family: 'Fira Sans', sans-serif;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  margin-bottom: 80px;
+}
+.quotation-text{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 12px;
+}
+.speaker{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 4px;
+}
+.rank{
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.quotation-text-container{
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  padding: 48px 24px;
+  background-position: 1.6% 16%;
+}
