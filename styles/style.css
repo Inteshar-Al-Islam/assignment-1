@@ -178,6 +178,9 @@ nav{
 .banner-img{
     margin-right: 60px;
 }
+.pillar{
+    margin-bottom: 80px;
+}
 .pillar-title{
     color: rgb(14, 14, 14);
 font-family: Fira Sans;
@@ -191,4 +194,71 @@ font-weight: 700;
 .pillar-item{
     height: 244px;
     width: 300px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.pillar-item-title{
+  color: rgba(14, 14, 14, 0.8);
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.pillar-item-text{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.future-vision-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    margin-top: 32px;
+}
+
+.future-vision-card{
+    height: 325px;
+    width: 410px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 33px 32px 0px 45px;
+}
+.card-1{
+  background-color: rgba(84, 144, 245, 0.2);
+}
+.card-2{
+  background-color: rgb(198, 228, 214);
+}
+.card-3{
+  background-color: rgb(247, 235, 207);
+}
+.btn-card{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
+  width: 122px;
+  height: 41px;
+  border-radius: 8px;
+  margin: 24px 0px;
+}
+.btn-card-1{
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(84, 144, 245);
+}
+.btn-card-2{
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(9, 161, 92);
+}
+.btn-card-3{
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 194, 57);
 }
