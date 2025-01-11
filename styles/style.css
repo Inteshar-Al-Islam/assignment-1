@@ -193,7 +193,7 @@ font-weight: 700;
     justify-content: space-between;
 }
 .pillar-item{
-    height: 244px;
+    height: 300px;
     width: 300px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
@@ -317,7 +317,10 @@ th, td {
   text-align: left;
   border: 1px solid rgba(14, 14, 14, 0.15);
 }
-.opinion-btn {
+thead{
+  background-color: rgb(198, 228, 214);
+}
+.opinion-btn{
   padding: 10px 20px;
   background-color: rgb(198, 228, 214);
   border: 1px solid rgb(14, 14, 14);
