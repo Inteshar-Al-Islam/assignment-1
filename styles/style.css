@@ -465,7 +465,6 @@ text-align: left;
   font-size: 18px;
   font-weight: 700;
   border: none;
-  padding-bottom: 25px;
 }
 .promise{
   color: rgba(14, 14, 14, 0.7);
@@ -473,4 +472,30 @@ text-align: left;
   font-weight: 400;
   text-align: center;
   padding-bottom: 80px;
+}
+.tail{
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+}
+.footer-head{
+  color: rgb(14, 14, 14);
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 80px;
+}
+.socials{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+} 
+.social{
+  margin: 0px 20px;
+}
+.short{
+  width: 70%;
+}
+
+footer{
+  margin-top: 80px;
+  background-color: #f8faff;
 }
