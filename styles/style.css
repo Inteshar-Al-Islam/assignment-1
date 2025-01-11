@@ -425,3 +425,52 @@ text-align: left;
   justify-content: center;
   margin-bottom: 80px;
 }
+.subscription-container{
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+  background-color: rgb(198, 228, 214);
+  border-radius: 24px;
+  margin-bottom: 25px;
+}
+.subscribe-heading{
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  padding: 80px 0px 16px 0px;
+}
+.subscription-p{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.subscription-input{
+  width: 70%;
+  height: 54px;
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+  padding-left: 40px;
+  margin-right: 0px;
+}
+.subscription-btn{
+  margin-left: -5px;
+  width: 10%;
+  height: 59px;
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  padding-bottom: 25px;
+}
+.promise{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 80px;
+}
